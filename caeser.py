@@ -28,4 +28,5 @@ def encrypt(plaintext,shiftAmount):
     return ciphertext
 
 def decrypt(ciphertext,shiftAmount):
+    # negate the shiftAmount 
     return encrypt(ciphertext,-shiftAmount)
